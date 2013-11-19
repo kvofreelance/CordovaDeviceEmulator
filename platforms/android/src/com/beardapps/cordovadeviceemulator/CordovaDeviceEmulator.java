@@ -19,19 +19,79 @@
 
 package com.beardapps.cordovadeviceemulator;
 
+import org.apache.cordova.CordovaActivity;
+import org.jtb.alogcat.FilterDialog;
+
+import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
-import org.apache.cordova.*;
+import android.view.Menu;
+import android.view.MenuItem;
 
 public class CordovaDeviceEmulator extends CordovaActivity 
 {
+	private static final int MENU_GOTO = 0;
+	private static final int MENU_LOGACTIVITY = 1;
+	private static final int MENU_REFRESH = 2;
+	public static final int GOTO_DIALOG = 0;
+	public static String currentUrl = "";
+	
+	private GoToDialog mGoToDialog = null;
+	
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         super.init();
         // Set by <content src="index.html" /> in config.xml
-        super.loadUrl(Config.getStartUrl());
-        //super.loadUrl("file:///android_asset/www/index.html")
+        //super.loadUrl(Config.getStartUrl());
+        super.loadUrlTimeoutValue = 60000;
+        super.keepRunning = true;
+        super.loadUrl("");
     }
+    
+    public void gotoUrl(String url) {
+    	currentUrl = url;
+    	super.loadUrl(currentUrl);
+    }
+    
+     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+    	// TODO Auto-generated method stub
+    	 menu.add(0,MENU_GOTO,0,"GoTo");
+    	 menu.add(0,MENU_LOGACTIVITY,0,"LogActivity");
+    	 menu.add(0,MENU_REFRESH,0,"Refresh");
+    	return super.onPrepareOptionsMenu(menu);
+    }
+     
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	switch(item.getItemId()) {
+    		case MENU_GOTO: {
+    			showDialog(GOTO_DIALOG);
+    			return true;
+    		}
+    		case MENU_LOGACTIVITY: {
+    			Intent intent = new Intent(this, org.jtb.alogcat.LogActivity.class);
+    	        startActivity(intent);
+    			return true;
+    		}
+    		case MENU_REFRESH: {
+    			gotoUrl(currentUrl);
+    			return true;
+    		}
+    		default:
+    			return false;//super.onOptionsItemSelected(item);
+    	}
+    }
+    
+    protected Dialog onCreateDialog(int id) {
+		switch (id) {
+		case GOTO_DIALOG:
+			mGoToDialog = new GoToDialog(this);
+			return mGoToDialog;
+		}
+		return null;
+	}
 }
 

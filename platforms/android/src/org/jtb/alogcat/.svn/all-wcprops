@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat
+END
+Lock.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/42/trunk/src/org/jtb/alogcat/Lock.java
+END
+Format.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/Format.java
+END
+PrefsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/PrefsActivity.java
+END
+ALogcatApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/40/trunk/src/org/jtb/alogcat/ALogcatApplication.java
+END
+LogActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/LogActivity.java
+END
+LogDumper.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/25/trunk/src/org/jtb/alogcat/LogDumper.java
+END
+Intent.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/42/trunk/src/org/jtb/alogcat/Intent.java
+END
+LogEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/src/org/jtb/alogcat/LogEntry.java
+END
+LogEntryAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/LogEntryAdapter.java
+END
+FilterDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/FilterDialog.java
+END
+Level.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/Level.java
+END
+Logcat.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/Logcat.java
+END
+Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/Buffer.java
+END
+BackgroundColor.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/BackgroundColor.java
+END
+SaveService.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/42/trunk/src/org/jtb/alogcat/SaveService.java
+END
+Textsize.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/Textsize.java
+END
+Prefs.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/48/trunk/src/org/jtb/alogcat/Prefs.java
+END
+LogSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/42/trunk/src/org/jtb/alogcat/LogSaver.java
+END
+ShareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/src/org/jtb/alogcat/ShareService.java
+END
+SaveReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/src/org/jtb/alogcat/SaveReceiver.java
+END
+ShareReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/src/org/jtb/alogcat/ShareReceiver.java
+END
