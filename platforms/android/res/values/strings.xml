@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">CordovaDeviceEmulator</string>
-    <string name="app_name_paused">aLogcat (paused)</string>
-    <string name="app_prefs">aLogcat - Preferences</string>
+    <string name="app_name_paused">Pause</string>
+    <string name="app_prefs">Preferences</string>
     <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
     <string name="fatal_title">Fatal</string>
