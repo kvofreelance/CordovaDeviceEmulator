@@ -43,11 +43,9 @@ public class CordovaDeviceEmulator extends CordovaActivity
     {
         super.onCreate(savedInstanceState);
         super.init();
-        // Set by <content src="index.html" /> in config.xml
-        //super.loadUrl(Config.getStartUrl());
+        
         super.loadUrlTimeoutValue = 60000;
         super.keepRunning = true;
-        super.loadUrl("");
     }
     
     public void gotoUrl(String url) {
