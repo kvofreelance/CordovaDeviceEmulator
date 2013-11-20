@@ -5,24 +5,24 @@ CordovaEmulatorOnDevice is application for easy testing your cordova(phonegap) p
 Application consist of CordovaWbView which used Cordova framework and aLogcat app for view log messages in app(https://code.google.com/p/alogcat/).
 
 #CordovaDeviceEmulator support all standart cordova plugins:
-org.apache.cordova.device
-org.apache.cordova.network-information
-org.apache.cordova.battery-status
-org.apache.cordova.device-motion
-org.apache.cordova.device-orientation
-org.apache.cordova.geolocation
-org.apache.cordova.camera
-org.apache.cordova.media-capture
-org.apache.cordova.media
-org.apache.cordova.file
-org.apache.cordova.file-transfer
-org.apache.cordova.dialogs
-org.apache.cordova.vibration
-org.apache.cordova.contacts
-org.apache.cordova.globalization
-org.apache.cordova.splashscreen
-org.apache.cordova.inappbrowser
-org.apache.cordova.console
+ org.apache.cordova.device
+ org.apache.cordova.network-information
+ org.apache.cordova.battery-status
+ org.apache.cordova.device-motion
+ org.apache.cordova.device-orientation
+ org.apache.cordova.geolocation
+ org.apache.cordova.camera
+ org.apache.cordova.media-capture
+ org.apache.cordova.media
+ org.apache.cordova.file
+ org.apache.cordova.file-transfer
+ org.apache.cordova.dialogs
+ org.apache.cordova.vibration
+ org.apache.cordova.contacts
+ org.apache.cordova.globalization
+ org.apache.cordova.splashscreen
+ org.apache.cordova.inappbrowser
+ org.apache.cordova.console
 
 But you can add your plugins. It's easy.
 
