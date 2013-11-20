@@ -26,18 +26,18 @@ org.apache.cordova.console
 
 But you can add your plugins. It's easy.
 
-Advantages:
+#Advantages:
 1. You can fast develop your app.
 2. You don't need to build and install every time your app
 3. CordovaEmulatorOnDevice show your app as release app
 
-Instruction:
+#Instruction:
 1. Run applciation
 2. Pess "Settings" button and click "GoTo"
 3. Enter url adress in textedit of your project path. (Ex.: http://192.168.0.101/AppName/www)
 4. Click OK and you can see your project
 
-Prepare cordova project:
+#Prepare cordova project:
 After creating project(This you have to do this once, and every time you add a new plugin):
 1. Add all need plugins
 2. Run command:
@@ -45,7 +45,7 @@ After creating project(This you have to do this once, and every time you add a n
 3. Goto <AppName>/platforms/android/assets/www/
 4. Copy cordova.js, cordova_plugins.js and plugins folder to <AppName>/www/
 
-Add new plugins:
+#Add new plugins:
 1. clone this project to your local pc
 2. add your plugins
 3. Run command
