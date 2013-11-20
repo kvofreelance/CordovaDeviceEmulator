@@ -4,7 +4,7 @@ CordovaEmulatorOnDevice
 CordovaEmulatorOnDevice is application for easy testing your cordova(phonegap) projects.
 Application consist of CordovaWbView which used Cordova framework and aLogcat app for view log messages in app(https://code.google.com/p/alogcat/).
 
-CordovaDeviceEmulator support all standart cordova plugins:
+#CordovaDeviceEmulator support all standart cordova plugins:
 org.apache.cordova.device
 org.apache.cordova.network-information
 org.apache.cordova.battery-status
