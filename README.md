@@ -23,7 +23,7 @@ Application consist of CordovaWbView which used Cordova framework and aLogcat ap
  org.apache.cordova.splashscreen
  org.apache.cordova.inappbrowser
  org.apache.cordova.console
-
+ 
 But you can add your plugins. It's easy.
 
 #Advantages:
